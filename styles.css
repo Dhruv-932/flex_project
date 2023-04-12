@@ -1,0 +1,130 @@
+.logo {
+
+    height:100px;
+    width:auto;
+
+}
+.section1 {
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+.header {
+    display: flex;
+    gap:800px;
+    padding:10px 100px ;
+    
+}
+ul {
+    display: flex;
+    direction:row;
+    gap:40px;
+    
+}
+li {
+    list-style-type: none;
+}
+
+.content {
+    display:flex;
+    gap:100px;
+}
+.content1 {
+    padding:10px 100px;
+    font-size: 25px;
+}
+.content1 button {
+    color:lightcyan;
+    font-weight: bolder;
+    background-color: #3882F6;
+    border-radius:8px;
+}
+.content2 {
+    height:300px;
+    width:660px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    padding:0 150px 80px 0;
+    
+
+}
+.section2 h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+.cards{
+    display:flex;
+    margin:20px 100px;
+
+}
+.cards button {
+    border-radius: 8px;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+.popular_destinations {
+    display:flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    border-color: black;
+   
+
+}
+.popular_destinations img {
+    height:300px;
+    width:313px;
+    object-fit: cover;
+}
+.popular_destinations div {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:0 20px;
+    border-style: solid;
+    
+
+} 
+.popular_destinations button{
+    height: 25px;
+}
+.section3 {
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+.section3 h2 {
+    padding:100px 200px 0px 200px;
+    word-wrap: break-word;
+
+   
+
+}
+.section3 h3{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:300px;
+    padding:20px 100px 100px 0px;
+}
+.section4 {
+    padding:100px 100px 100px 190px;
+    background-color: #3882F6;
+    margin:20px 200px;
+    border-radius:18px;
+    font-size: 28px;
+    color:#F9FAF8;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4 button {
+   padding:15px;
+   border-radius: 8px;
+   font-size: 15px;
+   font-weight: 700;
+
+}
+.footer {
+    background-color:#1F2937;
+    color:#F9FAF8;
+    text-align: center;
+    padding:50px;
+    font-size:20px;
+}
+
